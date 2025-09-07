@@ -1,0 +1,5 @@
+# Ignore Visual Studio working files
+.vs/
+*.user
+*.suo
+*.vsidx

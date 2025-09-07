@@ -1,0 +1,20 @@
+﻿@model List<QuickEventSolution.Models.Event>
+
+<h2>All Events</h2>
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Date</th>
+        <th>Address</th>
+    </tr>
+    @foreach (var e in Model)
+    {
+        <tr>
+            <td>@e.Name</td>
+            <td>@e.Description</td>
+            <td>@e.Date.ToString("dd/MM/yyyy")</td>
+            <td>@e.Address</td>
+        </tr>
+    }
+</table>

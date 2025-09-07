@@ -1,0 +1,21 @@
+﻿@model List<QuickEventSolution.Models.User>
+@using QuickEventSolution.Models
+
+<h2>Users</h2>
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Full Name</th>
+        <th>Contact Number</th>
+        <th>Email</th>
+        <th>User Type</th>
+    </tr>
+    @foreach (var u in Model)
+    {
+        <tr>
+            <td>@u.FirstName @u.LastName</td>
+            <td>@u.ContactNumber</td>
+            <td>@u.Email</td>
+            <td>@UserTypeHelper.GetUserTypeText(u.UserType)</td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,10 @@
+# Auto normalize line endings
+* text=auto
+
+# Windows specific files CRLF
+*.cs     text eol=crlf
+*.cshtml text eol=crlf
+
+# Frontend files use LF (better for CSS/JS cross-platform)
+*.css    text eol=lf
+*.js     text eol=lf
