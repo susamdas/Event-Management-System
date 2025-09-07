@@ -8,9 +8,11 @@ namespace QuickEventSolution.Controllers
 {
     public class HomeController : Controller
     {
+
         
         private static List<Event> Events = new List<Event>
         {
+            // Sample events
             new Event { Id = 1, Name="Music Concert", Description="Live Music", Date=DateTime.Parse("2025-08-20"), Address="City Hall, Mirpur-2, Dhaka-1216", AssignedUserId=1 },
             new Event { Id = 2, Name="Tech Talk", Description="Technology Seminar", Date=DateTime.Parse("2025-09-05"), Address="Tech Center, Mirpur-1, Dhaka-1216", AssignedUserId=2 },
             new Event { Id = 3, Name="Art Exhibition", Description="Modern Art", Date=DateTime.Parse("2025-10-01"), Address="Gallery Bhaban, Bijoy Road, Dhaka-1217", AssignedUserId=3 },

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuickEventSolution")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fca46c4c105e0f18ec12a0d099e3c1b9ad82ef0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuickEventSolution")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuickEventSolution")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
